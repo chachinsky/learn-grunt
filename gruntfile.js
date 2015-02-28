@@ -21,5 +21,5 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-connect');
 
-	grunt.registerTask('default', ['jshint']);
+	grunt.registerTask('default', ['jshint', 'connect']);
 };

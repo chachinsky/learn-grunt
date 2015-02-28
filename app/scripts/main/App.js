@@ -9,7 +9,7 @@ define(function(require){
 
 	var App = Backbone.View.extend({
 		render: function(){
-			var value1 = this.createInputBox(1)
+			var value1 = this.createInputBox(1);
 			var value2 = this.createInputBox(2);
 			var answer = this.createAnswerModel();
 			this.createButtonContainer(value1, value2, answer);
