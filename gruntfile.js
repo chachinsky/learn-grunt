@@ -9,7 +9,10 @@ module.exports = function(grunt){
 				options:{
 					port: 9000,
 					base: 'app',
-					keepalive: true
+					keepalive: true,
+					open: {
+						target: 'http://localhost:9000'
+					}
 				}		
 			}
 		}
