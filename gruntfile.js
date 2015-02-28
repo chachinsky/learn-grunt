@@ -5,12 +5,16 @@ module.exports = function(grunt){
 			all: ['Gruntfile.js', 'app/scripts/**/*.js']
 		},
 		connect: {
-			server: {				
+			server: {
+				options:{
+					port: 9000,
+					base: 'app',
+					keepalive: true
+				}		
 			}
 		}
 
 	});
-
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-connect');
 
