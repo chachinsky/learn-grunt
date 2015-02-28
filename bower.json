@@ -1,0 +1,22 @@
+{
+  "name": "learn-grunt-app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/chachinsky/learn-grunt",
+  "authors": [
+    "Jose Medina <josemedina921@gmail.com>"
+  ],
+  "description": "demo app to learn grunt",
+  "main": "app/index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2"
+  }
+}
