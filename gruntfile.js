@@ -1,8 +1,12 @@
 module.exports = function(grunt){
+	'use strict';
 
 	grunt.initConfig({
 		jshint: {
-			all: ['Gruntfile.js', 'app/scripts/**/*.js']
+			all: ['Gruntfile.js', 'app/scripts/**/*.js'],
+			options: {
+				reporter: require('jshint-stylish')
+			}
 		},
 		connect: {
 			server: {
