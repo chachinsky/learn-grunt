@@ -10,10 +10,11 @@ module.exports = function(grunt){
 		},
 		connect: {
 			server: {
-				options:{
+				options: {
 					port: 9000,
 					base: 'app',
-					keepalive: false,
+					hostname: 'localhost', 
+					livereload: 35729,
 					open: {
 						target: 'http://localhost:9000'
 					}
@@ -23,7 +24,10 @@ module.exports = function(grunt){
 		watch: {
 			lintingtasks: {
 				files: ['app/scripts/**/*.js'],
-				tasks: ['jshint']
+				tasks: ['jshint'],
+				options: {
+					livereload: true
+				}
 			}
 		}
 
