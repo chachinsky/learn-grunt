@@ -7,5 +7,7 @@ Before you start, make sure you run
 
 Repository to store steps in learning grunt modules
 
-- Master - grunt-contrib-jshint
+- master - All combined
+- starter - grunt-contrib-jshint
 - contrib-connect - grunt-contrib-connect
+- contrib-watch - grunt-contrib-watch
