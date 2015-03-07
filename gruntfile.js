@@ -24,7 +24,10 @@ module.exports = function(grunt){
 		watch: {
 			lintingtasks: {
 				files: ['app/scripts/**/*.js'],
-				tasks: ['jshint'],
+				tasks: ['jshint']
+			},
+			reloadfiles: {
+				files: ['app/**/*'],
 				options: {
 					livereload: true
 				}
